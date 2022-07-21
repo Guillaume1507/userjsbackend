@@ -15,8 +15,8 @@ const { token } = require("morgan");
 var cloudinary = require("cloudinary").v2;
 cloudinary.config({
   cloud_name: "montitnuage",
-  api_key: "436478287895226",
-  api_secret: "RcWm96VUaFLAGZABOaXourH2z2Q",
+  api_key: "************",
+  api_secret: "**************",
 });
 
 var userModel = require("../models/users");
